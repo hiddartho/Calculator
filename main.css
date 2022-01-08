@@ -1,60 +1,62 @@
-* {  
-margin: 0;  
-padding: 0;  
-}
-body{
-	background: #eee;
-	font: 125%/1.4 system-ui;
-}
-.form-control-tel{
-	margin: 0 15px 15px 0;
-	padding:15px ;
-	padding-right: 75px;
-}
-#keybind{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-
-}
-#keyboard{
-	margin: 100px auto;
-	width: 300px;
-	/*border: 1px solid darkorchid;*/
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#keybind li{ 
-    float: left;  
-    margin: 0 5px 5px 0;  
-    width: 60px;  
-    height: 60px;  
+body {
+    background: #eee;
+}
+
+.form-control-tel {
+    margin: 0 15px 15px 0;
+    padding: 15px;
+    padding-right: 75px;
+}
+
+#keybind {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#keyboard {
+    margin: 100px auto;
+    width: 300px;
+}
+
+#keybind li {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 60px;
+    height: 60px;
     font-size: 24px;
-    line-height: 60px;  
-    text-align: center;  
-    background: #fff;  
-    border: 1px solid #f9f9f9;  
-    border-radius: 5px;  
-    
+    line-height: 60px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    background: rgb(23, 23, 23);
+    background: linear-gradient(90deg, rgba(23, 23, 23, 1) 0%, rgba(23, 23, 23, 1) 84%, rgba(85, 85, 85, 1) 100%);
+    color: grey;
+    box-shadow: -10px 11px 23px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
 }
-/*#use{
-	margin: 100px auto;
-	width: px;
+
+#display {
+    text-align: right;
+    border: none;
+    outline: none;
+    box-shadow: -10px 11px 23px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    background: rgb(23, 23, 23);
+    background: linear-gradient(67deg, rgba(23, 23, 23, 1) 0%, rgba(23, 23, 23, 1) 23%, rgba(54, 54, 54, 1) 26%, rgba(23, 23, 23, 1) 29%, rgba(23, 23, 23, 1) 32%, rgba(33, 33, 33, 1) 35%, rgba(23, 23, 23, 1) 38%, rgba(23, 23, 23, 1) 39%, rgba(42, 42, 42, 1) 52%, rgba(23, 23, 23, 1) 56%, rgba(23, 23, 23, 1) 100%);
+    color: rgb(39, 252, 50);
+    font-size: 26px;
+    width: 165px;
+    font-family: Digital;
 }
-.button{
-	list-style: none;
-	float: right;  
-    margin: 0 5px 5px 0;  
-    width: 60px;  
-    height: 60px;  
-    font-size: 24px;
-    line-height: 60px;  
-    text-align: center;  
-    background: #fff;  
-    border: 1px solid #f9f9f9;  
-    border-radius: 5px;  
-}*/
 
-
-#display{
-	text-align: right;
+@font-face {
+    font-family: 'Digital';
+    src: url('digital-7.ttf');
 }
